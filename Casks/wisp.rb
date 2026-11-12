@@ -1,6 +1,6 @@
 cask "wisp" do
-  version "1.4.0-wisp.1"
-  sha256 "eecd1a3eae8d4ef205e103fb8f5728001b1e905e696dd098388b0ee632ee5fa8"
+  version "1.4.0-wisp.2"
+  sha256 "de76c0ca73d6d0d342b8edb247965c90e90a09cf03ad97a393df198b66819eec"
 
   url "https://github.com/callistobound/wisp/releases/download/v#{version}/Wisp.dmg"
   name "Wisp"
