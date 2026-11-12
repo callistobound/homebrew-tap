@@ -1,6 +1,7 @@
 # Callisto Bound Homebrew Tap
 
 ```sh
+brew trust callistobound/tap                     # once; Homebrew 7 requires it
 brew install --cask callistobound/tap/wisp@tip   # every push to Wisp's downstream
 brew install --cask callistobound/tap/wisp       # stable releases
 ```

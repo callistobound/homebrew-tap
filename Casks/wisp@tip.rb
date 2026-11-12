@@ -7,7 +7,6 @@ cask "wisp@tip" do
   desc "Terminal emulator, a downstream fork of Ghostty"
   homepage "https://github.com/callistobound/wisp"
 
-  auto_updates true
   conflicts_with cask: "wisp"
   depends_on macos: :ventura
 
