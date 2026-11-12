@@ -6,8 +6,7 @@ brew install --cask callistobound/tap/wisp@tip   # every push to Wisp's downstre
 brew install --cask callistobound/tap/wisp       # stable releases
 ```
 
-[Wisp](https://github.com/callistobound/wisp) updates itself after install, so
-`brew upgrade` leaves it alone. It isn't notarized: allow it once in System
-Settings › Privacy & Security on first launch.
+[Wisp](https://github.com/callistobound/wisp) is signed and notarized, and
+updates itself after install, so `brew upgrade` leaves it alone.
 
 `Casks/wisp.rb` is written by Wisp's release workflow; don't edit it by hand.
